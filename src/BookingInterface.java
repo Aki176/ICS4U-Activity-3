@@ -19,17 +19,6 @@ public class BookingInterface {
         Car car1 = new Car("Tesla X", 2147483647);
         Airline airline1 = new Airline();
 
-        // Get info of everything from blank constructor
-        client1.getName();
-        reservation1.getAmountOfTravelers();
-        hotel1.getDate();
-        hotel1.getAmountRooms();
-        hotel1.getRatingWanted();
-        airline1.getAirLine();
-        airline1.getDate();
-        airline1.getFlightNumber();
-        airline1.getTime();
-
         // Set client info
         Scanner input = new Scanner(System.in);
 
