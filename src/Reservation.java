@@ -11,7 +11,7 @@ public class Reservation {
 
     // Blank constructor
     public Reservation () {
-        amountOfTravelers = 0;
+        amountOfTravelers = 1;
     } // End blank constructor
 
     // Getter retrieve value accessible from child class

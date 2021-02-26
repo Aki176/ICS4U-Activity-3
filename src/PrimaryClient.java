@@ -4,13 +4,18 @@ public class PrimaryClient {
     private String name;
     // End attributes
 
+    // Composition has-a relationship
+    private Reservation reservation;
+
     // Constructor
     public PrimaryClient (String name) {
+        this.reservation = new Reservation();
         name = name;
     }
 
     // Blank constructor
     public PrimaryClient () {
+        this.reservation = new Reservation();
         name = "";
     }
 
@@ -24,4 +29,11 @@ public class PrimaryClient {
         this.name = name;
     } // End setter
 
+    public int getAmountOfTravelers() {
+        return reservation.getAmountOfTravelers();
+    }
+
+    public void setAmountOfTravelers(int amountOfTravelers) {
+        reservation.setAmountOfTravelers(amountOfTravelers);
+    }
 } // End class PrimaryClient

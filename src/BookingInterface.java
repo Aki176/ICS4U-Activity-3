@@ -28,7 +28,7 @@ public class BookingInterface {
 
         // Number of travelers
         System.out.println("How many amount of travelers total you have?");
-        reservation1.setAmountOfTravelers(Integer.parseInt(input.nextLine()));
+        client1.setAmountOfTravelers(Integer.parseInt(input.nextLine()));
 
         // Hotel handler
         System.out.println("Do you want to book hotel? (Yes/No)");
@@ -65,7 +65,7 @@ public class BookingInterface {
                 "You are our 100000000th client and you get a free car come with your registration. Here is the detail of everything:");
         System.out.println();
         System.out.println("Client name: " + client1.getName());
-        System.out.println("Amount of Travelers: " + reservation1.getAmountOfTravelers());
+        System.out.println("Amount of Travelers: " + client1.getAmountOfTravelers());
         System.out.println("Hotel rating wanted: " + hotel1.getRatingWanted());
         System.out.println("Amount rooms: " + hotel1.getAmountRooms());
         System.out.println("Date check-in hotel: " + hotel1.getDate());
