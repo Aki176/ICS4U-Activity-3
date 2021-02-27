@@ -36,5 +36,5 @@ public class PrimaryClient {
     public void setAmountOfTravelers(int amountOfTravelers) {
         reservation.setAmountOfTravelers(amountOfTravelers);
     }
-    
+
 } // End class PrimaryClient
